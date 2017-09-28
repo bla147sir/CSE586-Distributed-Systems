@@ -1,0 +1,34 @@
+Applications Memory Usage (kB):
+Uptime: 669255 Realtime: 669255
+
+** MEMINFO in pid 2511 [edu.buffalo.cse.cse486586.simpledynamo] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap      629      560        0        0     1860     1855        4
+  Dalvik Heap      829      644        0        0     3016     2946       70
+ Dalvik Other      606      392        0        0                           
+        Stack       72       72        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap      472       96        0        0                           
+    .apk mmap       31        0        0        0                           
+    .dex mmap      222        8       32        0                           
+   Other mmap        9        0        0        0                           
+      Unknown       44       44        0        0                           
+        TOTAL     2918     1816       36        0     4876     4801       74
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        3           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        3        Proxy Binders:       12
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:       89
+  PAGECACHE_OVERFLOW:       16          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       16             22         1/16/2  /data/user/0/edu.buffalo.cse.cse486586.simpledynamo/databases/DynamoDB

@@ -1,0 +1,1 @@
+/Users/chenshihchia/AndroidStudioProjects/SimpleDht/app/build/intermediates/classes/debug
